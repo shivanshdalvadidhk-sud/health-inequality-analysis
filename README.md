@@ -116,6 +116,50 @@ Evaluates classification performance, showing correct and incorrect predictions 
 ![Actual vs Predicted](images/Actual_vs_Predicted.png)
 Compares predicted anemia values with actual values, indicating the model’s accuracy and spread.
 
+## 📊 Power BI Dashboard
+
+An interactive Power BI dashboard was built to visualize health inequality and anemia patterns across India.
+
+### 🔹 Overview Dashboard
+
+![Overview Dashboard](images/Overview.png)
+
+**Features:**
+
+* KPI cards showing average values (Anemia, Literacy, Water, Sanitation, Electricity)
+* State-wise anemia distribution (Map)
+* Top 10 states with highest anemia
+* District-level hotspot analysis
+* Interactive slicer for filtering by state/district
+
+---
+
+### 🔹 Analysis & Insights Dashboard
+
+![Analysis Dashboard](images/Analysis.png)
+
+**Features:**
+
+* Scatter plots:
+
+  * Literacy vs Anemia
+  * Sanitation vs Anemia
+  * Water vs Anemia
+* Model performance summary:
+
+  * Logistic Regression Accuracy: 79%
+  * Random Forest MAE: 7.25
+* Key insights on socio-economic impact
+
+---
+
+### 📥 Download Dashboard
+
+👉 [Download Power BI Dashboard](dashboard/health_inequality_dashboard.pbix)
+
+> Open the `.pbix` file using **Power BI Desktop** to explore interactive visuals.
+
+
 ## ⚙️ Tech Stack
 
 * Python
